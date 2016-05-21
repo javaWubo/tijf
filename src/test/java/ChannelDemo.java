@@ -14,7 +14,7 @@ public class ChannelDemo {
 
         int bytesRead = inChannel.read(buf);
         while (bytesRead != -1) {
-
+            System.out.println("Read " + bytesRead);
             System.out.println("Read " + bytesRead);
             buf.flip();
 
