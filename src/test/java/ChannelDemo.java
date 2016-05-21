@@ -22,6 +22,7 @@ public class ChannelDemo {
                 System.out.print((char) buf.get());
             }
 
+
             buf.clear();
             bytesRead = inChannel.read(buf);
         }
